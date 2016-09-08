@@ -1,0 +1,177 @@
+/*
+Theme Name: 	Mio Tema
+Description: 	Responsive WordPress Theme based on Boostrap and Font Awesome.
+Version:     	1.0.0
+Author:     	Andrea Marchetti
+Author URI:   http://www.marchettidesign.net/chi-sono/
+Site:         http://www.marchettidesign.net
+Text Domain: 	miotema
+Domain Path: 	/languages
+Tags:        	grid-layout, blog, custom-menu, featured-images, right-sidebar
+License:    	GNU General Public License v3.0
+License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+body, html{ font-family: "Source Sans Pro"; background: #eee;font-size: 16px; line-height: 24px}
+
+
+/*--------------------------
+General
+--------------------------*/
+
+hr{border:none; border-bottom: 1px solid #ddd}
+
+/* form  */
+input{border: 1px solid #ddd}
+input[type="submit"]{background: #333; color:#fff; border:none;width:70px;}
+input, textarea, select, button {
+  width : 150px;
+  margin: 0;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+}
+
+pre{overflow: hidden}
+
+/* Video Resposnive */
+figure{margin:0;}
+.video-container { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0;}
+.video-container  iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+
+/*--------------------------
+Layout
+--------------------------*/
+
+a{color:#21aabd;}
+a:hover{color:#ee52f4;}
+
+.container{max-width: 1200px; margin:0 auto;background: #fff}
+.header{padding:20px;background: #333;}
+.header__logo{float:left;color:#fff; text-decoration: none;}
+.header__menu{float: right;padding:0;margin:0;list-style-type: none;}
+.header__menu .menu-item{display: inline-block;}
+.header__menu .menu-item a{padding: 5px 10px; color:#fff;text-decoration: none;}
+
+.header__icon-bar{display: none;}
+.header__icon-bar span{display: block;background-color: #fff; height: 2px; width: 23px;margin-bottom:5px}
+
+/*--------------------------
+Home
+--------------------------*/
+
+.main-title{padding:50px 20px; text-align: center;background:#21aabd; color:#fff;margin: 0;font-weight: 300;font-size: 50px;}
+
+/*--------------------------
+Index, Single, Page
+--------------------------*/
+
+.content{width: 70%;float: left;}
+.content__title{font-size: 42px;}
+
+	.post{padding:40px; border-bottom: 1px solid #eee;}
+  .post img{max-width: 100%; height: auto;}
+	.content .page{padding:40px; }
+  .content .tag {margin-top:40px;}
+	.content .tag a{background: #666; color:#fff; padding:5px 10px; text-decoration: none; display: inline-block;;margin-top:5px;font-size: 12px;}
+
+	/* Comments */
+	.comments{margin: 40px 0; border-top: 1px solid #eee}
+	.commentlist,
+	.commentlist .children{list-style-type: none}
+
+	.comment-body{margin: 40px 0}
+	.comment-author.vcard img{border-radius: 100%;}
+
+	.comment-form-comment textarea{background: #eee; width:100%;border: 1px solid #ddd;margin-top:5px;}
+	.comment-form-author input,
+	.comment-form-email input,
+	.comment-form-url input{background: #eee; width:200px; max-width:300px;border: 1px solid #ddd;padding:5px}
+
+	.comment-form-author label,
+	.comment-form-email label,
+	.comment-form-url label{ width:100px;display: inline-block;}
+
+	.form-submit input{background: #333; color:#fff; border:none;font-size: 16px;padding: 10px 15px;width: auto;}
+
+  /* Pagination */
+  .pagination{padding:40px;}
+  .pagination a,
+  .pagination span{padding: 10px 15px; border: 1px solid #ddd; text-decoration: none;}
+  .pagination a:hover{background: #eee}
+
+  /* Caption Images */
+  .wp-caption { margin-bottom: 20px; padding: 10px; max-width: 97%; border: 1px solid #ddd; text-align: center; }
+  .wp-caption img { margin: 0; padding: 0; width: 100%!important; height: auto; border: 0 none; }
+  .wp-caption p.wp-caption-text { margin: 0; padding: 8px; font-size: 1em; line-height: 17px; }
+
+  /* Gallery */
+  .gallery { padding: 40px 0 40px 0; width: 100%; }
+  .gallery-item { float: left; width: 33.333333%; text-align: center; }
+  .gallery img { margin: 0 5% 0 5%; width: 90%; height: auto; border: none!important; }
+  .gallery-caption { width: 90%;margin:10px 0 0 0;}
+
+
+/*--------------------------
+Sidebar
+--------------------------*/
+
+.sidebar{width:30%;float: left;}
+	.widget{padding:40px;}
+	.widget ul{padding: 0;list-style-type: none;}
+	.widget ul li a{text-decoration: none;display: block;border-bottom: 1px solid #eee;padding:10px 15px}
+
+	.widget_search label{display: none;}
+
+footer{padding:10px 30px;}
+
+/*--------------------------
+Tablet
+--------------------------*/
+
+@media (max-width: 998px) {
+
+
+}
+
+
+/*--------------------------
+Smartphone
+--------------------------*/
+
+@media (max-width: 767px) {
+
+	/*header & menu */
+	.header__logo{margin-bottom:20px;}
+	.header__menu{width:100%;height: 0;overflow: hidden;
+		-webkit-transition: all 0.3s ease-out;
+						transition: all 0.3s ease-out;
+	}
+	.header__menu .menu-item{display: block;}
+	.header__menu .menu-item a{display: block;padding:10px 15px; border-bottom:1px solid #666;}
+
+	.header__icon-bar{float: right;display: block;}
+	.show-menu{height:300px;overflow: auto;}
+
+	/* content layout */
+	.main-title{font-size: 32px;}
+	.content,
+	.sidebar{width:100%;}
+
+  /* Gallery */
+  .gallery-caption{ font-size: 12px;}
+
+}
+
+/* Clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
