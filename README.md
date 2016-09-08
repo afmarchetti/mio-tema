@@ -1,7 +1,8 @@
 #Mio-tema Wordpress Theme
 
 A Wordpress Starter Theme create by [MarchettiDesign.net](http://www.marchettidesign.net/) 
-in this video series:[http://www.marchettidesign.net/tag/tema-wordpress-da-zero/](http://www.marchettidesign.net/tag/tema-wordpress-da-zero/) 
+
+All the video of the series on how to build the theme:[http://www.marchettidesign.net/tag/tema-wordpress-da-zero/](http://www.marchettidesign.net/tag/tema-wordpress-da-zero/) 
 
 
 ##List of the features
