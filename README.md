@@ -24,7 +24,7 @@ All the video of the series on how to build the theme:[http://www.marchettidesig
 Copy in theme folder.
 
 ## HTML & CSS
-Html & Css of the scrtucture: [http://codepen.io/afmarchetti/pen/ozgxrB](http://codepen.io/afmarchetti/pen/ozgxrB)
+Html & Css of the structure: [http://codepen.io/afmarchetti/pen/ozgxrB](http://codepen.io/afmarchetti/pen/ozgxrB)
 
 ## Licensing
 MIT © 2016 [Andrea Marchetti](http://www.marchettidesign.net/)
