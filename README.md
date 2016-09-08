@@ -4,7 +4,6 @@ A Wordpress Starter Theme create by [MarchettiDesign.net](http://www.marchettide
 
 All the video of the series on how to build the theme:[http://www.marchettidesign.net/tag/tema-wordpress-da-zero/](http://www.marchettidesign.net/tag/tema-wordpress-da-zero/) 
 
-
 ##List of the features
 
 - Resposnive
@@ -21,9 +20,11 @@ All the video of the series on how to build the theme:[http://www.marchettidesig
 - Tag
 - 404
 
-
 ## Usage
 Copy in theme folder.
+
+## HTML & CSS
+Html & Css of the scrtucture: [http://codepen.io/afmarchetti/pen/ozgxrB](http://codepen.io/afmarchetti/pen/ozgxrB)
 
 ## Licensing
 MIT © 2016 [Andrea Marchetti](http://www.marchettidesign.net/)
